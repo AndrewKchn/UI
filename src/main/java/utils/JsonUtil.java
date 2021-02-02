@@ -4,6 +4,9 @@ import com.google.gson.Gson;
 
 import java.io.*;
 
+// Для работы с JSON используется класс Gson, его нужно заимпортить с помощью pom.xml
+// в нем есть возможность создать объект из строки или из потока данных
+
 public class JsonUtil {
 
     public static String getStringJsonFromFile(String fileName) {
